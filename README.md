@@ -182,7 +182,7 @@ ssh leem@192.168.1.177
 
 **Screenshot — SSH verified, IP confirmed at 192.168.1.177, system update initiated:**
 
-![SSH verified and IP address confirmed](screenshots/01-ssh-verified-ip-confirmed.png)
+![SSH verified and IP address confirmed](01-ssh-verified-ip-confirmed.png)
 
 > All subsequent commands were run over SSH from the host machine, allowing commands to be pasted directly rather than typed inside the VirtualBox window.
 
@@ -216,7 +216,7 @@ sudo systemctl restart apache2
 
 **Screenshot — PHP 8.3 and all required extensions installing successfully:**
 
-![PHP and LAMP stack installing](screenshots/02-php-lamp-installing.png)
+![PHP and LAMP stack installing](02-php-lamp-installing.png)
 
 Verify all services are running:
 
@@ -256,7 +256,7 @@ EXIT;
 
 **Screenshot — MySQL 8.0 running and confirmed operational, PHP 8.3.6 verified, database created:**
 
-![MySQL running and database created](screenshots/03-mysql-running-database-created.png)
+![MySQL running and database created](03-mysql-running-database-created.png)
 
 Verify credentials work before continuing:
 
@@ -344,7 +344,7 @@ Navigate to `http://192.168.1.177/setup` in a browser on the host machine.
 
 **Screenshot — osTicket web installer loaded and ready for configuration:**
 
-![osTicket web installer](screenshots/04-osticket-web-installer.png)
+![osTicket web installer](/04-osticket-web-installer.png)
 
 Fill in the installer form:
 
@@ -367,7 +367,7 @@ Click **Install Now**.
 
 **Screenshot — Installation completed successfully:**
 
-![osTicket installation success](screenshots/05-osticket-install-success.png)
+![osTicket installation success](05-osticket-install-success.png)
 
 ---
 
@@ -387,7 +387,7 @@ sudo rm -rf /var/www/osticket/upload/setup
 
 **Screenshot — Staff Control Panel login page confirming osTicket is fully operational:**
 
-![osTicket SCP login page](screenshots/06-osticket-scp-login.png)
+![osTicket SCP login page](06-osticket-scp-login.png)
 
 Log into the Staff Control Panel at `http://192.168.1.177/scp` using the admin credentials created during installation.
 
@@ -401,7 +401,7 @@ After logging in, navigate to **Admin Panel → Settings → System** to configu
 
 **Screenshot — System Settings configured with helpdesk name, timezone (Africa/Lagos), and schedule:**
 
-![System settings configured](screenshots/07-system-settings.png)
+![System settings configured](07-system-settings.png)
 
 Key settings configured:
 - Helpdesk Name: `saleemorg`
@@ -417,7 +417,7 @@ Navigate to: **Admin Panel → Agents → Departments → Add New Department**
 
 **Screenshot — Six departments created and active:**
 
-![Departments configured](screenshots/08-departments-configured.png)
+![Departments configured](08-departments-configured.png)
 
 | Department | Manager | Purpose |
 |------------|---------|---------|
@@ -436,7 +436,7 @@ Navigate to: **Admin Panel → Manage → SLA → Add New SLA Plan**
 
 **Screenshot — Five SLA plans configured covering all ticket severity levels:**
 
-![SLA plans configured](screenshots/10-sla-plans-configured.png)
+![SLA plans configured](10-sla-plans-configured.png)
 
 | SLA Plan | Grace Period | Schedule | Use Case |
 |----------|-------------|----------|----------|
@@ -525,7 +525,7 @@ Time to resolve: [X minutes / hours]
 
 **Screenshot — Ticket #580747 resolved: "Cannot log into my workstation — account locked"**
 
-![Resolved ticket 580747](screenshots/11-resolved-ticket-580747.png)
+![Resolved ticket 580747](11-resolved-ticket-580747.png)
 
 This ticket shows the full lifecycle:
 - User submitted: *"I have been locked out since this morning, need urgent access restored"*
@@ -536,7 +536,7 @@ This ticket shows the full lifecycle:
 
 **Screenshot — Closed tickets queue showing resolved tickets with agent assignments:**
 
-![Closed tickets queue](screenshots/09-closed-tickets-queue.png)
+![Closed tickets queue](09-closed-tickets-queue.png)
 
 Closed tickets are accessible under: **Tickets → Closed**
 
